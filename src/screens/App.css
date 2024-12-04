@@ -1,0 +1,13 @@
+.App__BattleArea {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 5px;
+}
+
+/* .App__History {
+
+} */
+
+.BattleArea__Winner {
+    background-color: orange;
+}
