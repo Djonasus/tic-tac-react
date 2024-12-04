@@ -1,4 +1,4 @@
-class StateManager {
+export default class StateManager {
     constructor(StatePool, stateHandler) {
         this.StatePool = StatePool.slice()
         this.stateHandler = stateHandler
@@ -14,5 +14,3 @@ class StateManager {
         this.stateHandler(this.StatePool)
     }
 }
-
-export default StateManager

@@ -9,7 +9,7 @@ export default function CheckWinner(BattleArea) {
         [0, 4, 8], // Главная диагональ
         [2, 4, 6],
     ]
-    // console.log("fg")
+
     for (let i = 0; i < patterns.length; i++) {
         const [a, b, c] = patterns[i]
         if (BattleArea[a] && BattleArea[a] === BattleArea[b] && BattleArea[a] === BattleArea[c]) {
@@ -18,5 +18,3 @@ export default function CheckWinner(BattleArea) {
     }
     return [null, null]
 }
-
-// export default CheckWinner
